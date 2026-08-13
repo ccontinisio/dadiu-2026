@@ -1,0 +1,1082 @@
+fileFormatVersion: 2
+guid: 18961d3d065d44130b34b4c865d21ffa
+ModelImporter:
+  serializedVersion: 24501
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+    searchTexturesGlobally: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'ballerinaRig_33:COM_jnt' has translation
+      animation that will be discarded.\n\t'ballerinaRig_33:pelvis_jnt' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'ballerinaRig_33:spine01_jnt'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'ballerinaRig_33:spine03_jnt'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'ballerinaRig_33:spine04_jnt'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'ballerinaRig_33:neck02_jnt'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'ballerinaRig_33:head01_jnt'
+      has translation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      internalID: 1827226128182048838
+      firstFrame: 1
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0.96
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 2
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    importUVs: -1
+    importVertexColors: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+    calculateBlendshapeNormalsDeltaFromImportedNormals: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: ballerinaRig_33:ballerinaRig
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ballerinaRig_33:COMOffset_jnt
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ballerinaRig_33:COM_jnt
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ballerinaRig_33:neck01_jnt
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ballerinaRig_33:head01_jnt
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ballerinaRig_33:l_clavicle_jnt
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ballerinaRig_33:r_clavicle_jnt
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ballerinaRig_33:l_upperArm_jnt
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ballerinaRig_33:r_upperArm_jnt
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ballerinaRig_33:l_foreArm_jnt
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ballerinaRig_33:r_foreArm_jnt
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ballerinaRig_33:l_hand_jnt
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ballerinaRig_33:r_hand_jnt
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ballerinaRig_33:l_eye_jnt
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ballerinaRig_33:r_eye_jnt
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ballerinaRig_33:jaw_jnt
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ballerinaRig_33:l_thumb01_jnt
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ballerinaRig_33:l_thumb02_jnt
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ballerinaRig_33:l_thumb03_jnt
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ballerinaRig_33:l_indexFinger01_jnt
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ballerinaRig_33:l_indexFinger02_jnt
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ballerinaRig_33:l_indexFinger03_jnt
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ballerinaRig_33:l_middleFinger01_jnt
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ballerinaRig_33:l_middleFinger02_jnt
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ballerinaRig_33:l_middleFinger03_jnt
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ballerinaRig_33:l_ringFinger01_jnt
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ballerinaRig_33:l_ringFinger02_jnt
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ballerinaRig_33:l_ringFinger03_jnt
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ballerinaRig_33:l_pinkyFinger01_jnt
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ballerinaRig_33:l_pinkyFinger02_jnt
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ballerinaRig_33:l_pinkyFinger03_jnt
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ballerinaRig_33:r_thumb01_jnt
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ballerinaRig_33:r_thumb02_jnt
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ballerinaRig_33:r_thumb03_jnt
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ballerinaRig_33:r_indexFinger01_jnt
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ballerinaRig_33:r_indexFinger02_jnt
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ballerinaRig_33:r_indexFinger03_jnt
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ballerinaRig_33:r_middleFinger01_jnt
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ballerinaRig_33:r_middleFinger02_jnt
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ballerinaRig_33:r_middleFinger03_jnt
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ballerinaRig_33:r_ringFinger01_jnt
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ballerinaRig_33:r_ringFinger02_jnt
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ballerinaRig_33:r_ringFinger03_jnt
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ballerinaRig_33:r_pinkyFinger01_jnt
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ballerinaRig_33:r_pinkyFinger02_jnt
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ballerinaRig_33:r_pinkyFinger03_jnt
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ballerinaRig_33:spine02_jnt
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ballerinaRig_33:l_thigh_jnt
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ballerinaRig_33:l_calf_jnt
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ballerinaRig_33:l_heel_jnt
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ballerinaRig_33:l_toe_jnt
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ballerinaRig_33:r_thigh_jnt
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ballerinaRig_33:r_calf_jnt
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ballerinaRig_33:r_heel_jnt
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ballerinaRig_33:r_toe_jnt
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: walkCycle(jointsOnly)_02(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:ballerinaRig
+      parentName: walkCycle(jointsOnly)_02(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:joints_grp
+      parentName: ballerinaRig_33:ballerinaRig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:root_jnt
+      parentName: ballerinaRig_33:joints_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:COMOffset_jnt
+      parentName: ballerinaRig_33:root_jnt
+      position: {x: -2.0505354, y: 0.08644101, z: -3.576064e-17}
+      rotation: {x: 0, y: -3.399078e-33, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:COM_jnt
+      parentName: ballerinaRig_33:COMOffset_jnt
+      position: {x: -0.174, y: 1.7763568e-17, z: -7.483445e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:pelvis_jnt
+      parentName: ballerinaRig_33:COM_jnt
+      position: {x: -0, y: 0, z: -3.7865323e-31}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:l_thigh_jnt
+      parentName: ballerinaRig_33:pelvis_jnt
+      position: {x: 0.08353043, y: -0.040198922, z: 0.17219372}
+      rotation: {x: 0.019102603, y: 0.99877137, z: 0.013146733, w: -0.04379573}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:l_calf_jnt
+      parentName: ballerinaRig_33:l_thigh_jnt
+      position: {x: -0.9049243, y: -1.2529907e-16, z: -9.7699626e-17}
+      rotation: {x: -0.0008007527, y: -0.011744878, z: 0.04795436, w: 0.9987802}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:l_heel_jnt
+      parentName: ballerinaRig_33:l_calf_jnt
+      position: {x: -0.9410659, y: -1.2614909e-16, z: -6.217249e-17}
+      rotation: {x: 0.008850494, y: -0.033479575, z: 0.016047362, w: 0.9992714}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:l_toe_jnt
+      parentName: ballerinaRig_33:l_heel_jnt
+      position: {x: -0.20724449, y: 4.5519144e-17, z: 3.2045157e-18}
+      rotation: {x: 0.0000000071586688, y: -0.00000009372307, z: -0.0761584, w: 0.9970957}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:l_toeNub_jnt
+      parentName: ballerinaRig_33:l_toe_jnt
+      position: {x: -0.10527662, y: 0, z: 2.5220145e-17}
+      rotation: {x: -0.005006476, y: -0.70708907, z: -0.005006476, w: 0.70708907}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:r_thigh_jnt
+      parentName: ballerinaRig_33:pelvis_jnt
+      position: {x: 0.08352965, y: -0.04019901, z: -0.1721938}
+      rotation: {x: 0.9953585, y: 0.064615674, z: 0.04823405, w: 0.052533675}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:r_calf_jnt
+      parentName: ballerinaRig_33:r_thigh_jnt
+      position: {x: 0.9049244, y: -0.000000092184145, z: -0.00000011653916}
+      rotation: {x: -0.0011954624, y: -0.021134173, z: 0.08639673, w: 0.99603593}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:r_heel_jnt
+      parentName: ballerinaRig_33:r_calf_jnt
+      position: {x: 0.9410666, y: -0.00000010995008, z: 0.00000013055688}
+      rotation: {x: 0.047906313, y: -0.035732724, z: 0.060319845, w: 0.9963883}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:r_toe_jnt
+      parentName: ballerinaRig_33:r_heel_jnt
+      position: {x: 0.2072445, y: -0.00000006991055, z: 5.3290704e-17}
+      rotation: {x: 0.000000051645067, y: -0.00000050866277, z: -0.07615555, w: 0.997096}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:r_toeNub_jnt
+      parentName: ballerinaRig_33:r_toe_jnt
+      position: {x: 0.105276555, y: 0.000000013776411, z: 7.4606985e-16}
+      rotation: {x: -0.005006476, y: -0.70708907, z: -0.005006476, w: 0.70708907}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:spine01_jnt
+      parentName: ballerinaRig_33:COM_jnt
+      position: {x: -0.05311437, y: -0.009881828, z: -1.2753673e-17}
+      rotation: {x: 0.0069336714, y: -0.0018528773, z: -0.02713156, w: 0.99960613}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:spine02_jnt
+      parentName: ballerinaRig_33:spine01_jnt
+      position: {x: -0.2139499, y: 1.7763568e-17, z: -1.110223e-18}
+      rotation: {x: 0.007167131, y: -0.0006467891, z: 0.15435818, w: 0.98798877}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:spine03_jnt
+      parentName: ballerinaRig_33:spine02_jnt
+      position: {x: -0.21121043, y: -2.842171e-16, z: -6.661338e-18}
+      rotation: {x: 0.0070081432, y: -0.0016346384, z: 0.01582938, w: 0.99984884}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:spine04_jnt
+      parentName: ballerinaRig_33:spine03_jnt
+      position: {x: -0.21307863, y: -7.105427e-16, z: 5.551115e-19}
+      rotation: {x: 0.006294594, y: -0.0034877209, z: -0.25803035, w: 0.96611005}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:neck01_jnt
+      parentName: ballerinaRig_33:spine04_jnt
+      position: {x: -0.10982896, y: -1.4210854e-16, z: 4.440892e-18}
+      rotation: {x: -0.0028352023, y: -0.00040880012, z: 0.14271085, w: 0.9897603}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:neck02_jnt
+      parentName: ballerinaRig_33:neck01_jnt
+      position: {x: -0.13486275, y: 8.8817837e-17, z: 4.440892e-18}
+      rotation: {x: -0.002799387, y: -0.0006337136, z: 0.15892968, w: 0.98728573}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:head01_jnt
+      parentName: ballerinaRig_33:neck02_jnt
+      position: {x: -0.084767625, y: -0.0019177137, z: -0.00006955566}
+      rotation: {x: -0.02599161, y: 0.0023848717, z: -0.09823438, w: 0.99482095}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:head02_jnt
+      parentName: ballerinaRig_33:head01_jnt
+      position: {x: -0.16125369, y: 0.006756562, z: -3.9024478e-10}
+      rotation: {x: 6.508031e-25, y: 0.0000000036888401, z: -0.3021468, w: 0.95326144}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:headNub_jnt
+      parentName: ballerinaRig_33:head02_jnt
+      position: {x: -0.2636385, y: -0.012295728, z: 0.0000000012273347}
+      rotation: {x: 0.59703374, y: -0.3788809, z: -0.59703374, w: -0.37888092}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:jaw_jnt
+      parentName: ballerinaRig_33:head02_jnt
+      position: {x: 0.0960865, y: 0.08705293, z: 8.096831e-10}
+      rotation: {x: 0.7205671, y: -0.6933852, z: -3.98471e-17, w: -1.2332194e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:jawNub_jnt
+      parentName: ballerinaRig_33:jaw_jnt
+      position: {x: -0.19905795, y: 0.00087326777, z: -4.4308793e-17}
+      rotation: {x: -0.105739154, y: -0.6991561, z: -0.105739154, w: 0.6991561}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:l_eye_jnt
+      parentName: ballerinaRig_33:head02_jnt
+      position: {x: -0.09737155, y: 0.14369725, z: 0.08375607}
+      rotation: {x: 0.8668988, y: -0.49777225, z: -0.026189791, w: -0.004836065}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:l_eyeNub_jnt
+      parentName: ballerinaRig_33:l_eye_jnt
+      position: {x: -0.030694589, y: -5.684342e-16, z: -1.7763568e-17}
+      rotation: {x: -2.4651903e-32, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:r_eye_jnt
+      parentName: ballerinaRig_33:head02_jnt
+      position: {x: -0.09737289, y: 0.14369662, z: -0.083756}
+      rotation: {x: 0.4936053, y: 0.8692817, z: 0.0048892577, w: -0.02606356}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:r_eyeNub_jnt
+      parentName: ballerinaRig_33:r_eye_jnt
+      position: {x: 0.030694598, y: 1.1368684e-15, z: -3.5527136e-17}
+      rotation: {x: 0, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:l_clavicle_jnt
+      parentName: ballerinaRig_33:spine04_jnt
+      position: {x: -0.032895803, y: 0.08336829, z: 0.0436893}
+      rotation: {x: -0.50006, y: 0.36253294, z: 0.5760123, w: 0.53546226}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:l_clavicleNub_jnt
+      parentName: ballerinaRig_33:l_clavicle_jnt
+      position: {x: -0.13033034, y: 2.2655488e-17, z: 1.3322676e-17}
+      rotation: {x: -0.025599793, y: 0.2232924, z: 0.110986724, w: 0.9680739}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:l_upperArm_jnt
+      parentName: ballerinaRig_33:l_clavicleNub_jnt
+      position: {x: -0.0000000016864763, y: 0.000000017473791, z: 2.513105e-10}
+      rotation: {x: 0.38507238, y: -0.07538463, z: -0.004121787, w: 0.9197932}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:l_foreArm_jnt
+      parentName: ballerinaRig_33:l_upperArm_jnt
+      position: {x: -0.5799033, y: -1.1368684e-15, z: 5.684342e-16}
+      rotation: {x: 0.12059304, y: -0.015219353, z: -0.0016469016, w: 0.99258393}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:l_hand_jnt
+      parentName: ballerinaRig_33:l_foreArm_jnt
+      position: {x: -0.51439035, y: 0.0044866046, z: 0.007361239}
+      rotation: {x: -0.8129967, y: 0.11052613, z: 0.07337205, w: 0.5669542}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:l_thumb01_jnt
+      parentName: ballerinaRig_33:l_hand_jnt
+      position: {x: -0.08687597, y: -0.023449525, z: 0.017646398}
+      rotation: {x: 0.060169004, y: 0.2459338, z: 0.22990318, w: 0.9397025}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:l_thumb02_jnt
+      parentName: ballerinaRig_33:l_thumb01_jnt
+      position: {x: -0.073884495, y: -2.131628e-15, z: -2.842171e-16}
+      rotation: {x: -0.022214152, y: -0.031277645, z: 0.026575696, w: 0.99891037}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:l_thumb03_jnt
+      parentName: ballerinaRig_33:l_thumb02_jnt
+      position: {x: -0.049974006, y: -2.6290082e-15, z: 5.684342e-16}
+      rotation: {x: -0.06867158, y: -0.03794381, z: 0.0032946595, w: 0.99691206}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:l_thumb04_jnt
+      parentName: ballerinaRig_33:l_thumb03_jnt
+      position: {x: -0.05881741, y: -2.6667972e-16, z: -7.502184e-17}
+      rotation: {x: 0.6505464, y: 0.22754833, z: -0.28833878, w: 0.6647345}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:l_indexFinger01_jnt
+      parentName: ballerinaRig_33:l_hand_jnt
+      position: {x: -0.21163642, y: -0.005676766, z: 0.0317108}
+      rotation: {x: -0.0029138313, y: -0.017891774, z: 0.0745913, w: 0.99704945}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:l_indexFinger02_jnt
+      parentName: ballerinaRig_33:l_indexFinger01_jnt
+      position: {x: -0.06956173, y: -5.684342e-16, z: 0}
+      rotation: {x: -0.022046233, y: -0.026435493, z: 0.027898937, w: 0.9990179}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:l_indexFinger03_jnt
+      parentName: ballerinaRig_33:l_indexFinger02_jnt
+      position: {x: -0.045748733, y: 1.4210854e-15, z: 0}
+      rotation: {x: 0.0194302, y: 0.036693905, z: 0.018374022, w: 0.9989687}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:l_indexFingerNub_jnt
+      parentName: ballerinaRig_33:l_indexFinger03_jnt
+      position: {x: -0.040255003, y: -5.6838367e-16, z: 1.2564569e-16}
+      rotation: {x: 0.22186902, y: 0.054968093, z: -0.20211415, w: 0.9523143}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:l_middleFinger01_jnt
+      parentName: ballerinaRig_33:l_hand_jnt
+      position: {x: -0.2152573, y: 0.0020138288, z: -0.000051007504}
+      rotation: {x: -0.006240363, y: -0.035069823, z: 0.06809058, w: 0.9970431}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:l_middleFinger02_jnt
+      parentName: ballerinaRig_33:l_middleFinger01_jnt
+      position: {x: -0.06733799, y: -4.2632563e-16, z: 0}
+      rotation: {x: -0.013959815, y: -0.012367843, z: 0.03549785, w: 0.99919575}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:l_middleFinger03_jnt
+      parentName: ballerinaRig_33:l_middleFinger02_jnt
+      position: {x: -0.046845816, y: 6.252776e-15, z: -8.5265126e-16}
+      rotation: {x: 0.02821911, y: 0.025884854, z: -0.028222296, w: 0.998868}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:l_middleFingerNub_jnt
+      parentName: ballerinaRig_33:l_middleFinger03_jnt
+      position: {x: -0.045878842, y: -1.9963197e-16, z: -4.968248e-17}
+      rotation: {x: 0.21359245, y: 0.040368207, z: -0.13587223, w: 0.96658546}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:l_ringFinger01_jnt
+      parentName: ballerinaRig_33:l_hand_jnt
+      position: {x: -0.2110842, y: 0.0078787925, z: -0.031621683}
+      rotation: {x: -0.015743876, y: -0.034391403, z: 0.06434477, w: 0.9972107}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:l_ringFinger02_jnt
+      parentName: ballerinaRig_33:l_ringFinger01_jnt
+      position: {x: -0.06509869, y: 1.1368684e-15, z: -2.842171e-16}
+      rotation: {x: 0.0075032897, y: 0.019135479, z: -0.036339737, w: 0.9991281}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:l_ringFinger03_jnt
+      parentName: ballerinaRig_33:l_ringFinger02_jnt
+      position: {x: -0.036143057, y: 2.7000624e-15, z: 0}
+      rotation: {x: 0.0023811827, y: 0.008149006, z: 0.023772677, w: 0.99968135}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:l_ringFinger0Nub_jnt
+      parentName: ballerinaRig_33:l_ringFinger03_jnt
+      position: {x: -0.045485973, y: -3.5269835e-16, z: 7.770381e-18}
+      rotation: {x: 0.2193446, y: 0.07335446, z: -0.14923574, w: 0.96137184}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:l_pinkyFinger01_jnt
+      parentName: ballerinaRig_33:l_hand_jnt
+      position: {x: -0.19446781, y: 0.015529798, z: -0.059077196}
+      rotation: {x: -0.0062091337, y: -0.05354335, z: 0.056743637, w: 0.9969327}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:l_pinkyFinger02_jnt
+      parentName: ballerinaRig_33:l_pinkyFinger01_jnt
+      position: {x: -0.05217481, y: -1.1368684e-15, z: 0}
+      rotation: {x: -0.005751603, y: -0.0072304565, z: 0.037490018, w: 0.9992543}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:l_pinkyFinger03_jnt
+      parentName: ballerinaRig_33:l_pinkyFinger02_jnt
+      position: {x: -0.029559053, y: 1.4210854e-16, z: -2.842171e-16}
+      rotation: {x: 0.008347402, y: 0.022834059, z: -0.0281729, w: 0.9993074}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:l_pinkyFingerNub_jnt
+      parentName: ballerinaRig_33:l_pinkyFinger03_jnt
+      position: {x: -0.0326662, y: 4.5178424e-16, z: -1.1744078e-17}
+      rotation: {x: 0.22237417, y: 0.08742119, z: -0.1590747, w: 0.9579157}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:l_FK_upperArm_jnt
+      parentName: ballerinaRig_33:l_clavicleNub_jnt
+      position: {x: -0.0000000016864764, y: 0.000000017473791, z: 2.5131108e-10}
+      rotation: {x: -0.0044131745, y: -0.08287415, z: 0.05299273, w: 0.9951403}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:l_FK_foreArm_jnt
+      parentName: ballerinaRig_33:l_FK_upperArm_jnt
+      position: {x: -0.5799033, y: 1.1368684e-15, z: 7.9936054e-17}
+      rotation: {x: 0.0062706657, y: 0.11775564, z: -0.05280515, w: 0.99161786}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:l_FK_hand_jnt
+      parentName: ballerinaRig_33:l_FK_foreArm_jnt
+      position: {x: -0.51439035, y: 0.0044866046, z: 0.007361239}
+      rotation: {x: 0, y: -0.03510316, z: -0, w: 0.99938375}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:l_IK_upperArm_jnt
+      parentName: ballerinaRig_33:l_clavicleNub_jnt
+      position: {x: -0.0000000016864762, y: 0.000000017473791, z: 2.5131058e-10}
+      rotation: {x: 0.33409548, y: 0.3419777, z: 0.2472936, w: 0.8427795}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:l_IK_foreArm_jnt
+      parentName: ballerinaRig_33:l_IK_upperArm_jnt
+      position: {x: -0.5799033, y: 9.423018e-17, z: 1.3322676e-16}
+      rotation: {x: 0.10227798, y: 0.53327245, z: -0.24531515, w: 0.80310667}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:l_IK_hand_jnt
+      parentName: ballerinaRig_33:l_IK_foreArm_jnt
+      position: {x: -0.51439035, y: 0.0044866046, z: 0.007361239}
+      rotation: {x: -0.8015838, y: 0.12036251, z: 0.22031663, w: 0.5426204}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:r_clavicle_jnt
+      parentName: ballerinaRig_33:spine04_jnt
+      position: {x: -0.032894276, y: 0.083368644, z: -0.0436892}
+      rotation: {x: 0.3239721, y: 0.47522604, z: -0.5641358, w: 0.592413}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:r_clavicleNub_jnt
+      parentName: ballerinaRig_33:r_clavicle_jnt
+      position: {x: 0.13033126, y: -0.0000036268882, z: -0.000000058742135}
+      rotation: {x: -0.025599793, y: 0.2232924, z: 0.110986724, w: 0.9680739}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:r_upperArm_jnt
+      parentName: ballerinaRig_33:r_clavicleNub_jnt
+      position: {x: -0, y: 0, z: 6.4392934e-17}
+      rotation: {x: 0.4450055, y: -0.069356725, z: 0.013594055, w: 0.8927345}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:r_foreArm_jnt
+      parentName: ballerinaRig_33:r_upperArm_jnt
+      position: {x: 0.57990164, y: -0.0000066708326, z: 0.00000021623964}
+      rotation: {x: 0.13345318, y: -0.018560564, z: 0.0023718213, w: 0.99087846}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:r_hand_jnt
+      parentName: ballerinaRig_33:r_foreArm_jnt
+      position: {x: 0.53224516, y: -0.00448, z: -0.0061055007}
+      rotation: {x: 0.87016237, y: -0.18254334, z: -0.044539936, w: -0.4555345}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:r_thumb01_jnt
+      parentName: ballerinaRig_33:r_hand_jnt
+      position: {x: 0.071366, y: 0.02466, z: -0.0143623995}
+      rotation: {x: 0.063100666, y: 0.24375048, z: 0.2378361, w: 0.9381034}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:r_thumb02_jnt
+      parentName: ballerinaRig_33:r_thumb01_jnt
+      position: {x: 0.07912163, y: 0.0008312401, z: -0.003454334}
+      rotation: {x: -0.020763773, y: 0.018958189, z: 0.035456892, w: 0.99897563}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:r_thumb03_jnt
+      parentName: ballerinaRig_33:r_thumb02_jnt
+      position: {x: 0.05611599, y: -0.003577193, z: 0.003981339}
+      rotation: {x: -0.066086985, y: -0.05240302, z: -0.03575179, w: 0.9957953}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:r_thumb04_jnt
+      parentName: ballerinaRig_33:r_thumb03_jnt
+      position: {x: 0.059585713, y: 0.0029161677, z: 0.0014738147}
+      rotation: {x: 0.6505464, y: 0.22754833, z: -0.28833878, w: 0.6647345}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:r_indexFinger01_jnt
+      parentName: ballerinaRig_33:r_hand_jnt
+      position: {x: 0.20543733, y: 0.017640714, z: -0.029291727}
+      rotation: {x: -0.0029674165, y: -0.024179665, z: 0.10373288, w: 0.9943068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:r_indexFinger02_jnt
+      parentName: ballerinaRig_33:r_indexFinger01_jnt
+      position: {x: 0.06956154, y: -0.000004445877, z: -0.000000033574384}
+      rotation: {x: -0.022045152, y: -0.026423626, z: 0.027860316, w: 0.9990194}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:r_indexFinger03_jnt
+      parentName: ballerinaRig_33:r_indexFinger02_jnt
+      position: {x: 0.045748457, y: 0.0000011945517, z: 0.00000015397086}
+      rotation: {x: 0.019420372, y: 0.046221364, z: 0.02314427, w: 0.99847424}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:r_indexFingerNub_jnt
+      parentName: ballerinaRig_33:r_indexFinger03_jnt
+      position: {x: 0.03965003, y: 0.0015841967, z: 0.0039628725}
+      rotation: {x: 0.22186902, y: 0.054968093, z: -0.20211415, w: 0.9523143}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:r_middleFinger01_jnt
+      parentName: ballerinaRig_33:r_hand_jnt
+      position: {x: 0.20912883, y: 0.009943774, z: 0.0015401994}
+      rotation: {x: -0.006506529, y: -0.04569915, z: 0.09433743, w: 0.9944695}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:r_middleFinger02_jnt
+      parentName: ballerinaRig_33:r_middleFinger01_jnt
+      position: {x: 0.06733457, y: -0.000018232638, z: 0.000000019802762}
+      rotation: {x: -0.017119925, y: -0.04015203, z: 0.035481635, w: 0.99841666}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:r_middleFinger03_jnt
+      parentName: ballerinaRig_33:r_middleFinger02_jnt
+      position: {x: 0.046330273, y: 0.0002706347, z: -0.0037482243}
+      rotation: {x: 0.027083853, y: 0.085861154, z: -0.060888294, w: 0.99407595}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:r_middleFingerNub_jnt
+      parentName: ballerinaRig_33:r_middleFinger03_jnt
+      position: {x: 0.043825805, y: 0.0029336854, z: 0.0062055374}
+      rotation: {x: 0.21359245, y: 0.040368207, z: -0.13587223, w: 0.96658546}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:r_ringFinger01_jnt
+      parentName: ballerinaRig_33:r_hand_jnt
+      position: {x: 0.20339069, y: 0.0019997756, z: 0.03175584}
+      rotation: {x: -0.01737451, y: -0.048839312, z: 0.094044775, w: 0.9942176}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:r_ringFinger02_jnt
+      parentName: ballerinaRig_33:r_ringFinger01_jnt
+      position: {x: 0.06503621, y: 0.000008457346, z: -0.0012334503}
+      rotation: {x: 0.0075561684, y: 0.021971866, z: -0.039476395, w: 0.99895036}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:r_ringFinger03_jnt
+      parentName: ballerinaRig_33:r_ringFinger02_jnt
+      position: {x: 0.03614472, y: 0.000010266839, z: 0.00000011179662}
+      rotation: {x: 0.0024915063, y: 0.004312652, z: -0.0007358453, w: 0.9999873}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:r_ringFinger0Nub_jnt
+      parentName: ballerinaRig_33:r_ringFinger03_jnt
+      position: {x: 0.043982204, y: 0.0035934132, z: -0.00018039646}
+      rotation: {x: 0.2193446, y: 0.07335446, z: -0.14923574, w: 0.96137184}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:r_pinkyFinger01_jnt
+      parentName: ballerinaRig_33:r_hand_jnt
+      position: {x: 0.18931022, y: -0.0027022152, z: 0.06009377}
+      rotation: {x: -0.0064732097, y: -0.06775328, z: 0.075807616, w: 0.9947969}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:r_pinkyFinger02_jnt
+      parentName: ballerinaRig_33:r_pinkyFinger01_jnt
+      position: {x: 0.05217461, y: 0.0000020434663, z: 0.000000021709013}
+      rotation: {x: -0.0068114037, y: -0.017474601, z: 0.039198693, w: 0.9990554}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:r_pinkyFinger03_jnt
+      parentName: ballerinaRig_33:r_pinkyFinger02_jnt
+      position: {x: 0.030890558, y: -0.000048455287, z: -0.00097162795}
+      rotation: {x: 0.008347402, y: 0.022834059, z: -0.0281729, w: 0.9993074}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:r_pinkyFingerNub_jnt
+      parentName: ballerinaRig_33:r_pinkyFinger03_jnt
+      position: {x: 0.031639893, y: 0.003834696, z: 0.00043126076}
+      rotation: {x: 0.22237417, y: 0.08742119, z: -0.1590747, w: 0.9579157}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:r_FK_upperArm_jnt
+      parentName: ballerinaRig_33:r_clavicleNub_jnt
+      position: {x: 0.00000000379633, y: 0.000002157784, z: 0.000000006224404}
+      rotation: {x: -0.0044131745, y: -0.08287415, z: 0.05299273, w: 0.9951403}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:r_FK_foreArm_jnt
+      parentName: ballerinaRig_33:r_FK_upperArm_jnt
+      position: {x: 0.5799033, y: -5.684342e-16, z: -1.2878587e-16}
+      rotation: {x: 0.0062706657, y: 0.11775564, z: -0.05280515, w: 0.99161786}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:r_FK_hand_jnt
+      parentName: ballerinaRig_33:r_FK_foreArm_jnt
+      position: {x: 0.53224415, y: -0.016778506, z: -0.006105525}
+      rotation: {x: 0, y: -0.03510316, z: -0, w: 0.99938375}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:r_IK_upperArm_jnt
+      parentName: ballerinaRig_33:r_clavicleNub_jnt
+      position: {x: -1.7763568e-17, y: 5.684342e-16, z: 7.660539e-17}
+      rotation: {x: 0.40122944, y: 0.3017272, z: 0.18998376, w: 0.84373087}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:r_IK_foreArm_jnt
+      parentName: ballerinaRig_33:r_IK_upperArm_jnt
+      position: {x: 0.57990164, y: -0.0000066708326, z: 0.00000021623964}
+      rotation: {x: 0.11059348, y: 0.54609084, z: -0.25301704, w: 0.79090846}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:r_IK_hand_jnt
+      parentName: ballerinaRig_33:r_IK_foreArm_jnt
+      position: {x: 0.53224516, y: -0.00448, z: -0.0061055007}
+      rotation: {x: 0.8698903, y: -0.1881301, z: -0.10092883, w: -0.44464743}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:skirt01_jnt
+      parentName: ballerinaRig_33:COM_jnt
+      position: {x: -0.071964346, y: -0.08644101, z: 9.759876e-17}
+      rotation: {x: 1.0390477e-18, y: 0.71554035, z: 0.6985714, w: 8.658937e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:skirt02_jnt
+      parentName: ballerinaRig_33:skirt01_jnt
+      position: {x: -0.0874074, y: -7.9559364e-19, z: 3.173314e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:skirt03_jnt
+      parentName: ballerinaRig_33:skirt02_jnt
+      position: {x: -0.1025, y: -2.4613548e-19, z: 3.0133727e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ballerinaRig_33:skirt04_jnt
+      parentName: ballerinaRig_33:skirt03_jnt
+      position: {x: -0.10398263, y: -1.297737e-19, z: 2.933364e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 2
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
